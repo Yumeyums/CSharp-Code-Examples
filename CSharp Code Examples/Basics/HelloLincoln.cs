@@ -15,6 +15,7 @@ namespace CSharp_Code_Examples
             DateTime date = DateTime.Now;
             Console.WriteLine("Hello Lincoln!");
             Console.WriteLine("Today's date is " + date.ToLongDateString());
+            Choices.run();
         }
     }
 }
