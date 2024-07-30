@@ -21,7 +21,7 @@ namespace CSharp_Code_Examples
 
             Console.WriteLine("Welcome to the Calculator options!");
 
-            while (!valid)
+            while (!valid) 
             {
                 Console.WriteLine("Which Calculator would you like to choose?:");
                 for (int i = 0; i < calculators.Length; i++)

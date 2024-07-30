@@ -70,6 +70,7 @@ namespace CSharp_Code_Examples
             }
         }
 
+        //The ranges available when BMI is calculated, must be public to be accessed by the derived BMI classes.
         public static void bmiRanges(double bmi)
         {     
             Console.WriteLine($"Your BMI is {Math.Round(bmi, 2)}");

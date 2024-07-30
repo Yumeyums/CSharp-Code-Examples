@@ -38,10 +38,11 @@ namespace CSharp_Code_Examples
                 }
             }
 
+            //Uses method from parent class
             bmiRanges(bmi);
         }
 
-        private static double calcBMI(double weight, double height)
+        public static double calcBMI(double weight, double height)
         {
             double bmi = 703 * (weight / (height * height));
             return bmi;
