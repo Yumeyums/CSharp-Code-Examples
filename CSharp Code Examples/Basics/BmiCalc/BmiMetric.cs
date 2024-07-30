@@ -10,7 +10,7 @@ namespace CSharp_Code_Examples
     {
         //Authors: Zyke Lee
         //Calculator to calculate a BMI for a given person, using Metric units.
-        private static void run()
+        public static void run()
         {
 
         }
