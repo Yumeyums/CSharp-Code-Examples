@@ -16,9 +16,9 @@ namespace CSharp_Code_Examples
             Console.WriteLine("Hello Lincoln!");
             Console.WriteLine("Today's date is " + date.ToLongDateString());
 
-            //Choices.run(); //Program is ran through here
+            Choices.run(); //Program is ran through here
 
-            CalcTest.run(); //Testing is performed to check if all formulae are working.
+            //CalcTest.run(); //Testing is performed to check if all formulae are working.
         }
     }
 }
